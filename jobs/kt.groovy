@@ -1,4 +1,4 @@
-job('Giphy_Ingest_dev') {
+pipelineJob('Giphy_Ingest_dev') {
 pipeline {
     agent any
     stages {
