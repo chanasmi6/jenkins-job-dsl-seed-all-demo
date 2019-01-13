@@ -1,5 +1,5 @@
 pipelineJob('Giphy_Ingest_dev') {
-pipeline {
+
     agent any
     stages {
         stage('Build') { 
@@ -120,4 +120,4 @@ sh "docker push 251610726343.dkr.ecr.us-east-2.amazonaws.com/giphy-ingest:${env.
         
     }
 }
-}
+
